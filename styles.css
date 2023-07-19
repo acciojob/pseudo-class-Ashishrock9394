@@ -1,4 +1,11 @@
-span.before, span.after{
-    color: red;
-    font-size: 120%;
+div{
+	display:inline;
+}
+div::before{
+	content: "Before Element";
+	color: red;
+}
+div::after{
+	content: "After Element";
+	color: red;
 }
