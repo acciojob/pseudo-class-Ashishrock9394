@@ -1,4 +1,4 @@
-span.imp{
+span.before, span.after{
     color: red;
     font-size: 120%;
 }
